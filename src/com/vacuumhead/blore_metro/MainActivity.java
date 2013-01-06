@@ -1,5 +1,7 @@
-package org.example.blore_metro;
+package com.vacuumhead.blore_metro;
 
+
+import com.vacuumhead.blore_metro.*;
 
 import android.os.Bundle;
 import android.app.Activity;
