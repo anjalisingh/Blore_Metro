@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bangalore Metro</string>
+    <string name="bm_begin">$Bangalore Metro$</string>
+    <string name="menu_settings">Settings</string>
+    <string name="bm_calcfare">Calculate Fare</string>
+    <string name="bm_viewmap">View Map</string>
+    <string name="bm_exit">Exit</string>
+    <string name="bm_none">None</string>
+    <string name="calculatefare_begin">Calculating fare from Map</string>
+    <string name="calculatefare_start">start!</string>
+</resources>
+

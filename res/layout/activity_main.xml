@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:orientation="vertical" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+    <TextView
+        android:layout_marginRight="10dip"
+        android:text="@string/bm_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dip"
+        android:textSize="24.5sp"/>
+        
+<TableLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+  <TableRow>
+	<Button
+    android:id="@+id/calcfare_button"
+    android:text="@string/bm_calcfare"
+    android:textSize="20.0sp"/>
+	<Button
+        android:id="@+id/viewmap_button"
+        android:text="@string/bm_viewmap"
+        android:layout_marginBottom="25dip"
+        android:textSize="20.0sp" />
+   </TableRow>
+   <TableRow>
+	<Button
+    android:text="@string/bm_none"
+    android:textSize="20.0sp"/>
+	<Button
+        android:text="@string/bm_none"
+        android:layout_marginBottom="25dip"
+        android:textSize="20.0sp" />
+   </TableRow>
+  <TableRow>
+	<Button
+    android:text="@string/bm_none"
+    android:textSize="20.0sp"/>
+	<Button
+        android:text="@string/bm_none"
+        android:layout_marginBottom="25dip"
+        android:textSize="20.0sp" />
+   </TableRow>
+<Button
+    	android:id="@+id/exit_button"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/bm_exit"
+    	android:textSize="24.5sp" />
+</TableLayout>    
+    
+    
+  </LinearLayout>    
+</LinearLayout>
